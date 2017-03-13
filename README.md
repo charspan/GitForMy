@@ -28,3 +28,9 @@ git push origin :v1.0
 git push origin :refs/tags/[tagname]
 git push origin –delete [tagname]
 ~~~~
+
+#### 已经 git commit -m ""，但是备注内容写错了，如何修改备注的信息
+
+~~~~
+可以重新去编辑：git commit --amend
+~~~~
