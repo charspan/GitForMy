@@ -10,7 +10,8 @@ git push origin --delete dev
 
 ~~~~
 #查看 tag 标签
-git tag
+git tag  
+git tag -l -n
 #切换标签
 git checkout v1.0
 #创建标签
